@@ -1,2 +1,2 @@
 # affine_cipher
-Affine cipher và chứng mình linh tinh
+Affine cipher và chứng minh linh tinh
