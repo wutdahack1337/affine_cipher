@@ -11,6 +11,6 @@ Sau khi triển khai thuật toán thành code, t mới tự hỏi rằng "tại
 - Cho gcd(a, m) = k (k != 1)
 - Chúng ta đang muốn a * a^(-1) % m = 1 <=> a * a^(-1) = m * h + 1 (h là số nguyên dương bất kì) <=> k * p * a^(-1) = k * f * h + 1 (p = a/k, f = m/k)
 - Sau một lúc chiêm nghiệm, t mới nhận ra rằng đẳng thức bên trái (tức k * p * a^(-1)) là bội của k, mà bội của k không bao giờ có dạng k * f * h + 1 TRỪ KHI k = 1
-- Vậy kết luận: chỉ có k = 1 mới có thể khiến cho a * a^(-1) = m * h + 1 <=> a * a^(-1) % m = 1
+- Vậy kết luận: chỉ có k = 1 (gcd(a, m) = 1) mới có thể khiến cho a * a^(-1) % m = 1
 
 Thế thôi ~~
